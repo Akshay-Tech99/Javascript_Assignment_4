@@ -4,46 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .script{
+            border:5px inset navy;
+
+
+        }
+        img{
+            float:right;
+            border:20px solid navy;
+            border-radius:20px;
+        }
+    </style>
 </head>
 <body>
-    <p>
-        1.)var fruits=['Apple','Banana','Orange'];
-        console.log(fruits.join());
-        o/p:"Apple,Banana,Orange"
-    </p>
-    <p>
-        2.)var numbers=[1,2,3,4,5];
-        console.log(numbers.join("-"))
-        o/p:"1-2-3-4-5
-    </p>
-    <P>
-        3.)var chars=['H','E','L','L','O'];
-        console.log(chars.join(""))
-        o/p:HELLO
+    <div class="script">
+        <h1 style="text-align:right;font-size:40px;">JAVASCRIPT   METHODS()</h1>
+        <img src="images/image.jpg">
+    <p><br>
+        1.)<br>var fruits=['Apple','Banana','Orange'];<br>
+        console.log(fruits.join());<br><br>
+        o/p:<br>"Apple,Banana,Orange"<br>
+    </p><br><br>--------------------------------------------------------------*
+    <p><br>
+        2.)<br>var numbers=[1,2,3,4,5];<br>
+        console.log(numbers.join("-"))<br><br>
+        o/p:<br>"1-2-3-4-5
+    </p><br><br>--------------------------------------------------------------*
+    <P><br>
+        3.)<br>var chars=['H','E','L','L','O'];<br>
+        console.log(chars.join(""))<br><br>
+        o/p:<br>HELLO
 
-    </P>
-    <p>
-        4.)var text='JavaScript is Awesome';
-console.log(text.slice(0,10))
-o/p:"JavaScript"
-    </p>
-    <p>
-       5.) var sentence='I Love Learning JavaScript';
-console.log(sentence.slice(7,16))
-o/p: Learning
+    </P><br><br>--------------------------------------------------------------*
+    <p><br>
+        4.)<br>var text='JavaScript is Awesome';<br>
+console.log(text.slice(0,10))<br><br>
+o/p:<br>"JavaScript"
+    </p><br><br>--------------------------------------------------------------*
+    <p><br>
+       5.) <br>var sentence='I Love Learning JavaScript';<br>
+console.log(sentence.slice(7,16))<br><br>
+o/p: <br>Learning
 
-    </p>
+    </p><br><br>--------------------------------------------------------------*
     <p>
-        6.)var text='FrontEnd Developnment';
-        console.log(text.slice(-12));
-        o/p:Developnment
-    </p>
+        6.)<br>var text='FrontEnd Developnment';<br>
+        console.log(text.slice(-12));<br><br>
+        o/p:<br>Developnment
+    </p><br><br>--------------------------------------------------------------*
     <p>
-        7.)var date='2024-10-21';
-        console.log(date.split("-"));
-        o/p:[ '2024', '10', '21' ]
+        7.)<br>var date='2024-10-21';<br>
+        console.log(date.split("-"));<br><br>
+        o/p:<br>[ '2024', '10', '21' ]
 
+    </p><br><br>--------------------------------------------------------------*
+    <p>
+       8.) <br>var text='i love javascript programming';<br>
+var x=text.split(" ");<br>
+console.log(x[2])<br><br>
+o/p:<br>"javascript"
+    </p><br><br>--------------------------------------------------------------*
+    <p>
+        9.)<br>var url="https://fakestory.com/products"<br>
+        console.log(url.split("/"))<br><br>
+        o/p:<br>'https:', '', 'fakestory.com', 'products'<br>
     </p>
-    
+</div>
 </body>
 </html>
